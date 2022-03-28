@@ -10,16 +10,17 @@ for (let i = 1; i <= 100; i++) {
         <div>${i}</div>
     </div>`
 
-    elementNumbers.insertAdjacentHTML('beforeend', markupLi);
+    elementNumbers.innerHTML += markupLi;
 
-    if( i % 3 == 0 ) { 
+    if (i % 3 == 0) {
+        console.log(i);
         const markupLi = `
         <div class="number fizz d-flex justify-content-center align-items-center">
             <div>Fizz</div>
         </div>`
-        elementNumbers.insertAdjacentHTML('beforeend', markupLi);
-        console.log("Multiplo  di 3");  
-        }
+
+        elementNumbers.innerHTML += markupLi;
+    }
 
 
 }
