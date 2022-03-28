@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #183A4A;
+    --bg-blue: #3D88AE;
+    --bgcolor-fizz: #61D2A4;
+    --bgcolor-fizzbuzz: #DE5471;
+    --bgcolor-buzz: #F9D277;
+
+}
+
+body{
+    background-color: var(--background);
+}
